@@ -1,0 +1,47 @@
+.MyList {
+    display: grid;
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.MyList__ul {
+    width: 100%;
+    text-align: center;
+}
+
+.listItems {
+    display: flex;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.inputNewTask label {
+    color: white;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputNewTaskRed label {
+    color: red;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: red;
+}
+
+.inputNewTaskRed input {
+    color: white;
+    height: 24px;
+}
+
+.inputNewTask input {
+    color: white;
+    height: 24px;
+}
+
+.inputNewTask {
+    height: 56px;
+}
